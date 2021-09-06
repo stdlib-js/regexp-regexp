@@ -123,6 +123,22 @@ bool = RE_REGEXP.test( '' );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/regexp-from-string`][@stdlib/utils/regexp-from-string]: create a regular expression from a regular expression string.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -179,6 +195,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/regexp-regexp/main/LICENSE
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+<!-- <related-links> -->
+
+[@stdlib/utils/regexp-from-string]: https://github.com/stdlib-js/utils-regexp-from-string
+
+<!-- </related-links> -->
 
 </section>
 
