@@ -20,7 +20,7 @@ limitations under the License.
 
 # RegExp String
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][regexp] to parse a [regular expression][regexp] string.
 
@@ -131,7 +131,7 @@ bool = RE_REGEXP.test( '' );
 
 ## See Also
 
--   [`@stdlib/utils/regexp-from-string`][@stdlib/utils/regexp-from-string]: create a regular expression from a regular expression string.
+-   <span class="package-name">[`@stdlib/utils/regexp-from-string`][@stdlib/utils/regexp-from-string]</span><span class="delimiter">: </span><span class="description">create a regular expression from a regular expression string.</span>
 
 </section>
 
@@ -182,8 +182,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-regexp/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-regexp?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-regexp.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/regexp-regexp/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
