@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-regexp",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Return a regular expression to parse a regular expression string.",
   "license": "Apache-2.0",
   "author": {
