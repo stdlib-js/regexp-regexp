@@ -24,38 +24,30 @@ limitations under the License.
 
 > [Regular expression][regexp] to parse a [regular expression][regexp] string.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-regexp
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-reRegExp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var reRegExp = require( 'path/to/vendor/umd/regexp-regexp/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.reRegExp;
-})();
-</script>
+var reRegExp = require( '@stdlib/regexp-regexp' );
 ```
 
 #### reRegExp()
@@ -111,13 +103,8 @@ var bool = reRegExp.REGEXP.test( '/^beep$/' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var reRegExp = require( '@stdlib/regexp-regexp' );
 
 var RE_REGEXP = reRegExp();
 
@@ -138,11 +125,6 @@ bool = RE_REGEXP.test( '/boop' );
 
 bool = RE_REGEXP.test( '' );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -202,8 +184,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-regexp.svg
 [npm-url]: https://npmjs.org/package/@stdlib/regexp-regexp
 
-[test-image]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml/badge.svg?branch=v0.0.8
+[test-url]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml?query=branch:v0.0.8
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-regexp/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-regexp?branch=main
@@ -236,7 +218,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/regexp-from-string]: https://github.com/stdlib-js/utils-regexp-from-string/tree/umd
+[@stdlib/utils/regexp-from-string]: https://github.com/stdlib-js/utils-regexp-from-string
 
 <!-- </related-links> -->
 
