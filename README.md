@@ -184,8 +184,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-regexp.svg
 [npm-url]: https://npmjs.org/package/@stdlib/regexp-regexp
 
-[test-image]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml/badge.svg?branch=v0.0.8
-[test-url]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml?query=branch:v0.0.8
+[test-image]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/regexp-regexp/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-regexp/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-regexp?branch=main
