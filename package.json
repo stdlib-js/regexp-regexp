@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-regexp",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Return a regular expression to parse a regular expression string.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-regexp": "^0.0.7",
