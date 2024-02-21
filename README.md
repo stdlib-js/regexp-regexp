@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@deno/mod.js';
+import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.1-deno/mod.js';
 ```
 
 #### reRegExp()
@@ -105,7 +105,7 @@ var bool = reRegExp.REGEXP.test( '/^beep$/' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@deno/mod.js';
+import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.1-deno/mod.js';
 
 var RE_REGEXP = reRegExp();
 
