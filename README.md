@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-regexp/tags). For example,
+
+```javascript
 import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.1-deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@deno/mod.js';
 ```
 
 #### reRegExp()
@@ -105,7 +110,7 @@ var bool = reRegExp.REGEXP.test( '/^beep$/' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.1-deno/mod.js';
+import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@deno/mod.js';
 
 var RE_REGEXP = reRegExp();
 
