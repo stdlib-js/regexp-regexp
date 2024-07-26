@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@esm/index.mjs';
+import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@esm/index.mjs';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.2-esm/index.mjs';
 ```
 
 #### reRegExp()
@@ -110,7 +110,7 @@ var bool = reRegExp.REGEXP.test( '/^beep$/' );
 <body>
 <script type="module">
 
-import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@esm/index.mjs';
+import reRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-regexp@v0.2.2-esm/index.mjs';
 
 var RE_REGEXP = reRegExp();
 
