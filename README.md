@@ -65,7 +65,7 @@ var reRegExp = require( '@stdlib/regexp-regexp' );
 
 #### reRegExp()
 
-Returns a [regular expression][regexp] to parse a [regular expression][regexp] `string`. 
+Returns a [regular expression][regexp] to parse a [regular expression][regexp] `string`.
 
 <!-- eslint-disable stdlib/doctest -->
 
@@ -97,7 +97,7 @@ bool = RE_REGEXP.test( '/^\\/([^\\/]+)\\/(.*)$/' );
 
 #### reRegExp.REGEXP
 
-[Regular expression][regexp] to parse a [regular expression][regexp] `string`. 
+[Regular expression][regexp] to parse a [regular expression][regexp] `string`.
 
 ```javascript
 var bool = reRegExp.REGEXP.test( '/^beep$/' );
@@ -184,7 +184,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
