@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-03)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`dfcf918`](https://github.com/stdlib-js/stdlib/commit/dfcf9185c66be30f67f6f91343e196f16a5ab235) - **chore:** fix typo in interface name and error message [(#12445)](https://github.com/stdlib-js/stdlib/pull/12445) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-01)
