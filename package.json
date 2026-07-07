@@ -71,7 +71,8 @@
     "expression",
     "string",
     "pattern",
-    "flags"
+    "flags",
+    "match"
   ],
   "funding": {
     "type": "opencollective",
