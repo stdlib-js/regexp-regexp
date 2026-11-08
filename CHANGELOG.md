@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-07)
+## Unreleased (2026-11-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a3ef833`](https://github.com/stdlib-js/stdlib/commit/a3ef8332fc0b02f15802a6edb81df0ede5457fc6) - add support for `d`, `s`, `u`, and `v` regexp flags [(#16543)](https://github.com/stdlib-js/stdlib/pull/16543)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`a3ef833`](https://github.com/stdlib-js/stdlib/commit/a3ef8332fc0b02f15802a6edb81df0ede5457fc6) - **fix:** add support for `d`, `s`, `u`, and `v` regexp flags [(#16543)](https://github.com/stdlib-js/stdlib/pull/16543) _(by Rajan Pantha)_
 -   [`241d36c`](https://github.com/stdlib-js/stdlib/commit/241d36c44454ad127e74eb2321376de72935f65e) - **chore:** add keywords [(#13351)](https://github.com/stdlib-js/stdlib/pull/13351) _(by Philipp Burckhardt)_
 -   [`dfcf918`](https://github.com/stdlib-js/stdlib/commit/dfcf9185c66be30f67f6f91343e196f16a5ab235) - **chore:** fix typo in interface name and error message [(#12445)](https://github.com/stdlib-js/stdlib/pull/12445) _(by Philipp Burckhardt)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Rajan Pantha
 
 </section>
 
